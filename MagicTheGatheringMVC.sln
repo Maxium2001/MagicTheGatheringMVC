@@ -1,22 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTheGatheringMVC", "MagicTheGatheringMVC\MagicTheGatheringMVC.csproj", "{595152A9-D18E-405F-9B82-912B83647629}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MagicTheGatherignApi", "MagicTheGatherignApi", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{9497190F-4C85-412D-B21F-BED3D6171033}"
-	ProjectSection(SolutionItems) = preProject
-		CardModel.cs = CardModel.cs
-		CardsModel.cs = CardsModel.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4BB5BA40-26BD-478A-A1AB-7D5977BA84D6}"
-	ProjectSection(SolutionItems) = preProject
-		MagicServices.cs = MagicServices.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTheGatheringApi", "MagicTheGatheringApi\MagicTheGatheringApi.csproj", "{196AA00B-79DD-4566-A6C7-11C1F5598FDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,13 +17,13 @@ Global
 		{595152A9-D18E-405F-9B82-912B83647629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{595152A9-D18E-405F-9B82-912B83647629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{595152A9-D18E-405F-9B82-912B83647629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196AA00B-79DD-4566-A6C7-11C1F5598FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196AA00B-79DD-4566-A6C7-11C1F5598FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196AA00B-79DD-4566-A6C7-11C1F5598FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196AA00B-79DD-4566-A6C7-11C1F5598FDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{9497190F-4C85-412D-B21F-BED3D6171033} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{4BB5BA40-26BD-478A-A1AB-7D5977BA84D6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D506935F-46B0-49E4-85CA-7C7CAEB01A85}
