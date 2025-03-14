@@ -1,0 +1,31 @@
+﻿   @model MagicTheGatheringMVC.ViewModel.CardsViewModel
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <title>Carte Magic</title>
+</head>
+<body>
+     <h2>Carte Magic</h2>
+    <div class="container">
+        @if (Model.cards != null && Model.cards.Any())
+        {
+            foreach (var card in Model.cards)
+            {
+                <div class="card">
+                    <h3>@card.name</h3>
+                    <p>CMC: @card.cmc</p>
+                    <img src="@card.imageUrl" alt="@card.name">
+                </div>
+            }
+        }
+        else
+        {
+            <p>Nessuna carta trovata.</p>
+        }
+    </div>
+</body>
+</html>

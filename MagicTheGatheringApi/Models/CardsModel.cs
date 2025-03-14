@@ -1,7 +1,7 @@
-﻿namespace MagicTheGatheringMVC
+﻿namespace MagicTheGatheringApi.Models
 {
-    public class CardModel
+    public class CardsModel
     {
-        public List<CardModel> Cards { get; set; }
+        public List<CardModel>? cards { get; set; }
     }
 }

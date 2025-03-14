@@ -1,22 +1,72 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
   margin-bottom: 60px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+img {
+    max-width: 100px;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+  display: flex; /* Allinea le carte in riga */
+  flex-wrap: wrap; /* Permette il ritorno a capo se lo spazio è insufficiente */
+  justify-content: center; /* Centra le carte */
+  gap: 10px; /* Distanza tra le carte */
+}
+
+.card {
+  width: 45%; /* Imposta una larghezza fissa per tutte le carte */
+  height: 90%; /* Imposta un'altezza fissa */
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column; /* Allinea gli elementi verticalmente */
+  align-items: center; /* Centra il contenuto */
+  justify-content: space-between; /* Distribuisce lo spazio all'interno */
+}
+
+.card img {
+  width: 100%; /* Adatta l'immagine alla larghezza della card */
+  height: auto; /* Mantiene le proporzioni */
+  transition: transform 0.3s ease; /* Transizione fluida */
+}
+
+.card img:hover {
+    transform: scale(2.3); /* Ingrandisce l'immagine del 20% */
+    z-index: 10; /* Porta l'immagine in primo piano */
+}
+
+input, select, button{
+  margin: 5px;
+  padding: 10px;
+  width: 15%; /* Adatta l'immagine alla larghezza della card */
+  height: auto; /* Mantiene le proporzioni */
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
 }

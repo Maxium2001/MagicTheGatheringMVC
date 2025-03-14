@@ -9,4 +9,4 @@ namespace MagicTheGatheringMVC
 
         private readonly string baseUrl = "https://api.magicthegathering.io/v1/cards";
     }
-}
+}   
