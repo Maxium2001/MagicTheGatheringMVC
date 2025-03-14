@@ -1185,23 +1185,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maryciky\\.nuget\\packages\\": {},
+    "C:\\Users\\AirMax\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maryciky\\Desktop\\prova\\prova\\MagicTheGatheringApi\\MagicTheGatheringApi.csproj",
+      "projectUniqueName": "C:\\Users\\AirMax\\Documents\\GitHub\\MagicTheGatheringMVC\\MagicTheGatheringApi\\MagicTheGatheringApi.csproj",
       "projectName": "MagicTheGatheringApi",
-      "projectPath": "C:\\Users\\maryciky\\Desktop\\prova\\prova\\MagicTheGatheringApi\\MagicTheGatheringApi.csproj",
-      "packagesPath": "C:\\Users\\maryciky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maryciky\\Desktop\\prova\\prova\\MagicTheGatheringApi\\obj\\",
+      "projectPath": "C:\\Users\\AirMax\\Documents\\GitHub\\MagicTheGatheringMVC\\MagicTheGatheringApi\\MagicTheGatheringApi.csproj",
+      "packagesPath": "C:\\Users\\AirMax\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AirMax\\Documents\\GitHub\\MagicTheGatheringMVC\\MagicTheGatheringApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\maryciky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AirMax\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
